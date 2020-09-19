@@ -1,15 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Nav from './privateTemplate/nav';
 
 function App() {
   return (
-    <div>
-        
-            
-
+    <div id="wrapper" className="wrapper animsition">
+      <Nav/>
     </div>
-   
   );
 }
 
