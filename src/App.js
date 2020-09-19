@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './privateTemplate/nav';
+import Nav from './privateTemplate/Nav';
 
 function App() {
   return (
