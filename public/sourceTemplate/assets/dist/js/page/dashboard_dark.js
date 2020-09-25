@@ -10,7 +10,7 @@ $(document).ready(function () {
             timeOut: 4000
                     // positionClass: "toast-top-left"
         };
-        toastr.success('Responsive Admin Template', 'Welcome to Adminpage');
+        // toastr.success('Responsive Admin Template', 'Welcome to Adminpage');
 
     }, 1300);
 

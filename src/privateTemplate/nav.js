@@ -11,7 +11,7 @@ function Nav() {
             <div className="navbar-header">
                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span className="sr-only>Toggle navigation"></span>
-                    <i className="material-icons>apps"></i>
+                    <i className="material-icons">apps</i>
                 </button>
                 <a className="navbar-brand" href="index.html">
                     <img className="main-logo" src={Logo} alt="" />
