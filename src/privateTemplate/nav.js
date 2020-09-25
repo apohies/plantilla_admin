@@ -7,7 +7,7 @@ import avatar4 from './source/img/avatar4.png';
 
 function Nav() {
     return (
-        <nav className="navbar navbar-fixed-top" role="navigation">
+        <>
             <div className="navbar-header">
                 <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span className="sr-only>Toggle navigation"></span>
@@ -355,7 +355,7 @@ function Nav() {
                     </li>
                 </ul>
             </div>
-        </nav>
+        </>
     );
 }
 
