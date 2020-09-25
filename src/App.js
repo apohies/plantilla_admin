@@ -2,7 +2,8 @@ import React from 'react';
 import Nav from './privateTemplate/Nav';
 import SideBar from './privateTemplate/SideBar';
 import "./App.css";
-import Right_bar from './privateTemplate/Right_bar';
+import RightBar from './privateTemplate/RightBar';
+import DashBoard from './privateTemplate/page/DashBoard';
 
 function App() {
   return (
@@ -14,10 +15,12 @@ function App() {
         <SideBar/>
       </div>
       <div className="side-bar right-bar">
-        <Right_bar/>
+        <RightBar/>
       </div>
       <div className="control-sidebar-bg"></div>
-      <div id="page-wrapper"></div>
+      <div id="page-wrapper">
+        <DashBoard/>
+      </div>
     </div>
   );
 }

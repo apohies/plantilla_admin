@@ -13,7 +13,7 @@ import avatar2 from './source/img/avatar2.png';
 import avatar3 from './source/img/avatar3.png';
 import avatar4 from './source/img/avatar4.png';
 
-function Right_bar() {
+function RightBar() {
     return (
         <div className="">
             <ul className="nav nav-tabs right-sidebar-tabs" role="tablist">
@@ -160,4 +160,4 @@ function Right_bar() {
     );
 }
 
-export default Right_bar;
+export default RightBar;
