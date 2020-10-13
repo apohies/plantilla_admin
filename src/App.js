@@ -3,7 +3,7 @@ import Nav from './privateTemplate/Nav';
 import SideBar from './privateTemplate/SideBar';
 import "./App.css";
 import RightBar from './privateTemplate/RightBar';
-import DashBoard from './privateTemplate/page/DashBoard';
+import Routes from './privateTemplate/Routes';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       </div>
       <div className="control-sidebar-bg"></div>
       <div id="page-wrapper">
-        <DashBoard/>
+        <Routes/>
       </div>
     </div>
   );

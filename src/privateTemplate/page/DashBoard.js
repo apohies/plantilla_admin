@@ -87,7 +87,7 @@ function DashBoard() {
                         <ul className="activity-list list-unstyled">
                             <li className="activity-purple">
                                 <small className="text-muted">9 minutes ago</small>
-                                <p>You <span class="label label-success label-pill">recommended</span> Karen Ortega</p>
+                                <p>You <span className="label label-success label-pill">recommended</span> Karen Ortega</p>
                             </li>
                             <li className="activity-danger">
                                 <small className="text-muted">15 minutes ago</small>
@@ -109,7 +109,7 @@ function DashBoard() {
                     </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <div class="panel panel-bd lobidisable">
+                    <div className="panel panel-bd lobidisable">
                         <div className="panel-heading">
                             <div className="panel-title">
                                 <i className="ti-email"></i>
