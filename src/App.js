@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './privateTemplate/Nav';
+import Nav from './privateTemplate/nav';
 import SideBar from './privateTemplate/SideBar';
 import "./App.css";
 import RightBar from './privateTemplate/RightBar';
